@@ -1,0 +1,130 @@
+
+@font-face {
+	font-family: HeadingFont;
+	src: url(BrittanySignature.ttf);
+}
+
+@font-face {
+	font-family: BodyFont;
+	src: url(SpicyPotatos.ttf);
+}
+
+body {
+	background-image: url(Hearts_for_Background_Transparent_PNG_Clip_Art.png);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: 100%;
+
+/*  	background: linear-gradient(180deg, #FFC2C2 0%, #E88B8B 51%, #DD6F6F 75%);*/
+	background-color: lightpink;
+
+}
+
+#header {
+	text-align: center;
+	font-family: HeadingFont;
+	font-size: 64px;
+	color: hotpink;
+}
+
+.magazine {
+	display: flex;
+	margin: 0 auto;
+	width: 85%;
+}
+
+.side {
+	display: flex;
+	flex-direction: column;
+	width: 600px;
+}
+
+.image {
+	display: block;
+	margin: 10px;
+	border-radius: 5px;
+
+}
+
+#cover {
+	width: 600px;
+}
+
+.heading {
+	font-family: BodyFont;
+	font-size: 42px;
+	color: floralwhite;
+	background-color: hotpink;
+	border-radius: 5px;
+	padding: 24px;
+}
+
+.paragraph {
+	font-family: BodyFont;
+	font-size: 20px;
+	color: hotpink;
+	text-align: justify;
+	width: 40%;
+	margin: 50px;
+	display: inline-block;
+}
+
+#photo {
+	display: inline-block;
+	width: 650px;
+	margin: 20px;
+	border-radius: 5px;
+}
+
+#women {
+	font-family: BodyFont;
+	font-size: 42px;
+	text-align: center;
+	color: floralwhite;
+}
+
+#lana {
+	font-family: BodyFont;
+	font-size: 42px;
+	color: floralwhite;
+	margin: 50px;
+}
+
+#video {
+	display: block;
+	margin: 0 auto;
+}
+
+
+
+.albums {
+	text-align: center;
+}
+
+.marina {
+	display: inline-block;
+	width: 400px;
+	margin: 20px;
+	border-radius: 5px;
+}
+
+.taylor {
+	display: inline-block;
+	width: 400px;
+	margin: 20px;
+	border-radius: 5px;
+}
+
+.selena {
+	display: inline-block;
+	width: 400px;
+	margin: 20px;
+	border-radius: 5px;
+}
+
+
+
+
+
+
+
